@@ -20,7 +20,7 @@ top-section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+	
 }
 
 .container{
@@ -86,6 +86,7 @@ header nav {
 	padding: 10px 0;
 	border-top: 3px solid #77a466;
 	width: 100%;
+
 }
 
 header nav ul {
@@ -99,10 +100,12 @@ header nav ul li {
 	padding: 10px 10px;
 	list-style: none;
 
+
 }
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+
 }
 
 /*The widths are in a percentage!*/
@@ -213,10 +216,10 @@ footer span {
 
 /*****Desktop styles******/
 @media all and (min-width: 1200px) {
-	header nav ul {
-		display: flex;
-		justify-content: space-between;
+	
 	}
+
+	
 }
 
 
