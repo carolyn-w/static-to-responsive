@@ -70,24 +70,23 @@ header {
 	align-items:center;
 	flex-flow: column;
 	width: 100%;
-}
+	}
 
 header h1 {
 	margin: 0;
 	padding-top: 40px;
 	padding-bottom: 10px;
-	
-}
+	}
+
 header h1 span {
 	color: #77a466;
-}
+	}
 
 header nav {
 	padding: 10px 0;
 	border-top: 3px solid #77a466;
 	width: 100%;
-
-}
+	}
 
 header nav ul {
 	margin: 0;
@@ -99,9 +98,8 @@ header nav ul li {
 	font-size: 0.9em;
 	padding: 10px 10px;
 	list-style: none;
+	}
 
-
-}
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
@@ -206,9 +204,9 @@ footer span {
 	}
 
 	.section-two {
-	border-right: 1px solid #eee;
-	border-left: 1px solid #eee;
-	padding: 0 20px;
+		border-right: 1px solid #eee;
+		border-left: 1px solid #eee;
+		padding: 0 20px;
 	}
 
 
@@ -218,15 +216,32 @@ footer span {
 /*****Desktop styles******/
 @media all and (min-width: 1200px) {
 
-	nav {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
+
+header {
+	display: flex;
+	flex-flow: row nowrap;
 	}
 
-	header nav ul li a {
-	display: block;
+	header nav {
+	padding: 0;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	border-top: none;
+	flex-flow: row nowrap;
 	}
+
+	header nav ul {
+	display: flex;
+	}
+
+header h1 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 35%;
+	
+	}
+
 }
 
 
